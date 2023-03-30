@@ -5,7 +5,7 @@ const input = document.querySelector('[name="email"]');
 const textarea = document.querySelector('[name="message"]');
 const FEEDBACK_FORM = 'feedback-form-state';
 
-form.addEventListener('input', throttle(onGetDataFrom, 1000));
+form.addEventListener('input', throttle(onGetDataFrom, 500));
 form.addEventListener('submit', onClickBtn);
 
 addLocal();
